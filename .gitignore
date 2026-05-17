@@ -1,0 +1,30 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+*.keystore
+mnemonic*
+private-key*
+secrets/
+
+# Local artifacts
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+*.log
+out/
+artifacts/
+cache/
+broadcast/
+
+# Foundry / Hardhat
+forge-cache/
+typechain-types/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
